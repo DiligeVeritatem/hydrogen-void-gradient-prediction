@@ -39,8 +39,12 @@ This prediction will be falsified if either of the following is observed:
 **Novelty Statement:**
 To the best of our knowledge, no prior cosmological model has predicted this specific radial hydrogen density structure inside voids, independent of galaxy distribution. This prediction is testable, falsifiable, and formally timestamped via cryptographic hash.
 
+**Theoretical Addendum:**
+While the prediction is framed independently of any particular theory, its mathematical structure is not arbitrary. The exponential suppression form $\rho_H(r) \propto \exp(-m_H^2/\gamma(r))$ reflects a generic functional class found in physical systems where energy thresholds or coherence gradients regulate density. The shape of $\gamma(r)$, including its minimum and maximum values, corresponds to a hypothesized curvature profile motivated by dimensional analysis and previous theoretical work on field-gradient scaling in low-density environments.
+
+This addendum serves to signal that the functional form is not curve-fitted to data but is instead intended to encode deeper physical principles that may emerge from a unified theoretical framework, to be articulated separately.
+
 **Attribution:**
 Authored by Nikilos Mesaris
-Posted publicly on \[2025-07-25] via GitHub and Zenodo
-SHA-256: \[579f83f76e432a082114de44744547738171ca42d7e82dd6747e8400c2efce70]
-Initial commit: Hydrogen Void Gradient Prediction (SHA-256: 579f83f76e432a082114de44744547738171ca42d7e82dd6747e8400c2efce70)
+Posted publicly on \[YYYY-MM-DD] via GitHub and Zenodo
+SHA-256: 579f83f76e432a082114de44744547738171ca42d7e82dd6747e8400c2efce70
