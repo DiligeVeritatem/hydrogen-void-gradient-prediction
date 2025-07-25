@@ -1,0 +1,46 @@
+**Prediction HI-Void-001: Radial Hydrogen Gradient in Cosmic Voids**
+
+**Statement:**
+The interiors of large cosmic voids are predicted to exhibit a measurable radial gradient in the density of diffuse neutral hydrogen (HI). Specifically, the hydrogen density increases from the void center toward a maximum located near 0.6 times the void radius (R\_void), with the possibility of flattening or declining beyond that point.
+
+**Functional Form:**
+Let $\rho_H(r)$ denote the diffuse neutral hydrogen density at radial distance $r \in [0, R_\text{void}]$ from the void center. Then:
+
+$\rho_H(r) \propto \exp\left(-\frac{m_H^2}{\gamma(r)}\right)$
+
+where:
+
+* $m_H$ is the mass of the hydrogen atom,
+* $\gamma(r)$ is a geometric or field-related scalar function that increases with radial distance up to a maximum near $r \approx 0.58 R_\text{void}$, and may plateau or decline beyond.
+
+An approximate analytic form for $\gamma(r)$ in the rising phase is:
+
+$\gamma(r) = \gamma_\text{min} + (\gamma_\text{max} - \gamma_\text{min}) \cdot \left(\frac{r}{0.58 R_\text{void}}\right)^2 \quad \text{for} \quad r \leq 0.58 R_\text{void}$
+
+with:
+
+* $\gamma_\text{min} \approx 0.56$ at $r = 0$,
+* $\gamma_\text{max} \approx 0.944$ at $r = 0.58 \cdot R_\text{void}$.
+
+For $r > 0.58 R_\text{void}$, $\gamma(r)$ may plateau or decrease, leading to a corresponding flattening or decline in $\rho_H(r)$.
+
+**Interpretation:**
+The proposed profile is intended as a testable hypothesis regarding large-scale hydrogen structure. It is not derived from a specific cosmological model but reflects a possible correlation between large-scale curvature gradients and hydrogen distribution. The scalar function $\gamma(r)$ is introduced to encode any field, geometric, or environmental parameter that may regulate hydrogen density across voids. The functional form offers a falsifiable shape hypothesis: rising hydrogen density from the void center to a shell at $r \approx 0.6 R_\text{void}$, with potential leveling or decline beyond. The behavior of $\gamma(r)$ outside this region is left empirically unconstrained.
+
+**Observational Prediction:**
+Upcoming or future 21 cm intensity mapping surveys should detect this hydrogen gradient within void interiors. Stacked void profiles at redshifts $z < 0.2$ are expected to show a statistically significant increase in HI brightness temperature $T_b(r)$ from the center to $\sim 0.6 R_\text{void}$, potentially followed by a plateau or decline.
+
+**Falsifiability Criteria:**
+This prediction will be falsified if either of the following is observed:
+
+1. The radial hydrogen profile in voids is flat or decreasing from center to $\sim 0.6 R_\text{void}$;
+2. No statistically significant HI brightness gradient is detected in a sufficiently large, high-resolution void stack (e.g., using SKA, CHIME, MeerKAT, or equivalent).
+
+**Novelty Statement:**
+To the best of our knowledge, no prior cosmological model has predicted this specific radial hydrogen density structure inside voids, independent of galaxy distribution. This prediction is testable, falsifiable, and formally timestamped via cryptographic hash.
+
+**Attribution:**
+Authored by Nikilos Mesaris
+Posted publicly on \[2025-07-25] via GitHub and Zenodo
+SHA-256: \[579f83f76e432a082114de44744547738171ca42d7e82dd6747e8400c2efce70]
+Initial commit: Hydrogen Void Gradient Prediction (SHA-256: 579f83f76e432a082114de44744547738171ca42d7e82dd6747e8400c2efce70)
