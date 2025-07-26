@@ -4,7 +4,7 @@ Prediction HI-Void-001: Radial Hydrogen Gradient in Cosmic Voids
 
 **Title:** Radial Hydrogen Gradient in Cosmic Voids  
 **Author:** Nikilos Mesaris  
-**Date Posted:** [Insert today's date]  
+**Date Posted:** 7/26/2025
 **Hash:** `579f83f76e432a082114de44744547738171ca42d7e82dd6747e8400c2efce70`
 
 ## Description
